@@ -1,0 +1,48 @@
+
+<html>
+
+
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/js.js"></script>
+<header>
+</header>
+
+<body>
+
+
+
+<div class="container">
+    <div class="frame">
+        <div class="nav">
+            <ul class="links">
+                <li class="signin-active"><a class="btn">По направлению </a></li>
+                <li class="signup-inactive"><a class="btn">Самообращение </a></li>
+            </ul>
+        </div>
+        <div ng-app ng-init="checked = false">
+            <form class="form-signin" action="" method="post" name="form"> <label for="username">ФИО</label> <input class="form-styling" type="text" name="username" placeholder="" /> <label for="iin">ИИН</label> <input class="form-styling" type="text" name="iin" placeholder="" /> 
+                <div class="btn-animate"> <a class="btn-signin">Отправить</a> </div>
+            </form>
+            <form class="form-signup" action="" method="post" name="form"> <label for="fullname">ФИО</label> <input class="form-styling" type="text" name="fullname" placeholder="" /> <label for="email">ИИН</label> <input class="form-styling" type="text" name="email" placeholder="" /> <label for="password">Номер Телефона</label> <input class="form-styling" type="text" name="password" placeholder="" /> <label for="confirmpassword">Выбор врача</label> <input class="form-styling" type="text" name="confirmpassword" placeholder="" /> 
+			<a  target="_blank" href="selectdr.html" class="btn-signup">Отправить</a> 
+			</form>
+            
+        </div>
+        <div class="forgot"> <a href="#">Отправляя заявку вы соглашаетесь с офертой</a> </div>
+        <div>
+        
+            <h1 class="welcome">Спасибо за обращение в службу  записи на прием. Сейчас мы назначим...</h1> <a class="btn-goback" value="Refresh" onClick="history.go()">Назад</a>
+        </div>
+    </div> </div>
+
+</body>
+
+
+
+
+
+</html>
